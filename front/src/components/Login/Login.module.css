@@ -1,0 +1,112 @@
+.informacoes {
+  width: 35vw;
+  display: flex;
+  margin-top: 2vw;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #225b3a;
+  border: 10px solid #225b3a;
+  border-radius: 35px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-inline: 2rem;
+  padding: 1rem;
+  font-size: 30px;
+  margin-top: 7rem;
+  z-index: 11;
+}
+
+
+.border {
+  border: 25px solid red;
+  border-radius: 25px;
+  padding: 0px
+}
+
+.evento {
+  background-color: var(--corFundo);
+  border-radius: 0.5%;
+}
+
+.conteudo {
+  padding: 2vh 1vw;
+}
+
+.formulario h2 {
+  margin-bottom: 20px;
+}
+
+.formulario label,
+.formulario input,
+.formulario a {
+  display: block;
+  height: 20px;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.formulario .botao {
+  margin: 0 auto;
+  width: 50%;
+  background: #FFC05A;
+  height: auto;
+}
+
+.cadastro {
+  text-align: center;
+}
+
+.cadastro button {
+  background: none;
+  border: none;
+  color: rgb(0, 140, 255);
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1368px) {
+  .informacoes {
+    width: 35vw;
+  }
+
+  .info {
+    font-size: 20px;
+    margin-top: 20vh;
+  }
+}
+
+.formulario span {
+  color: blue;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .informacoes {
+    width: 55vw;
+  }
+
+  .info {
+    font-size: 20px;
+    margin-top: 0rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .informacoes {
+    width: 70vw;
+  }
+
+  .info {
+    font-size: 3vw;
+    margin-top: -1rem;
+  }
+}

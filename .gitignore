@@ -1,0 +1,6 @@
+/opnBack/.env
+/front/node_modules/
+/front/dist/
+
+/opnBack/node_modules
+/opnBack/dist
