@@ -2,13 +2,6 @@
 
 ## Aplicação desenvolvida para a disciplina de Introdução ao Desenvolvimento Web
 
-**Alunos**:
-  - Lucas Pereira Pacheco | 12543930
-  - Henrique Bovo | 12542539
-  - Raphael Leveque | 12542522
-  - João Pedro Duarte Nunes | 12542460
-  - Mateus Israel Silva | 11735042
-
 ## Sobre o projeto
 
 O site desenvolvido tem o objetivo de servir como plataforma de divulgação sobre a Operação Natal, trazendo informações sobre a missão da instituição e sobre os eventos que aconteceram ou que acontecerão, além de trazer opções de contato e de doações para o grupo.
