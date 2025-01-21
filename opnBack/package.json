@@ -4,11 +4,12 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
-    "build": "strapi build",
+    "dev": "nodemon index.js",
+    "build": "webpack",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
-    "start": "strapi start",
+    "start": "node index.js",
     "strapi": "strapi"
   },
   "dependencies": {
